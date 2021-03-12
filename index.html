@@ -1,39 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site teste Github</title>
 
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+
+    <!-- Slick (banner com movimento)
+        aqui ele vai precisar de uma requisicao direto do servidor:
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    -->
+
+    <title>Katia Moreno</title>
 </head>
+
 <body>
 
-    <h1 style="text-align: center;"> welcome to my page</h1>
+    <!-- primeira header ( logo / midias sociais)-->
+    <header class="menu-pricipal">
+        <main>
+            <div class="header-1">
 
-    <p style="text-align: center;" >My name is Katia Moreno, I'm learn JavaScript </p>
+                <div class="logo">
+                    <img src="img/Katia-logo01.png" alt="">
+                </div>
+
+                <div class="rede-sociais">
+                    <ul>
+                        <li>
+                            <a href="#" target="_blank">
+                                <img src="img/conexao.png" alt="rede-sociais">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/KatiaMoreno" target="_blank">
+                                <img src="img/iconfinder_GITHUB_25x25.png" alt="rede-sociais">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/morenokatiac" target="_blank">
+                                <img src="img/facebook.png" alt="rede-sociais">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/morenokatia" target="_blank">
+                                <img src="img/twitter.png" alt="rede-sociais">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/morenokatia/" target="_blank">
+                                <img src="img/linkedin.png" alt="rede-sociais">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </main>
+    </header>
+
+    <!--segunda hearder (menus de navegacao)-->
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li><a href="#"></a>HOME</li>
+                    <li><a href="#"></a>ABOUT US</li>
+                    <li><a href="#"></a>SERVICE</li>
+                    <li><a href="#"></a>PAGES</li>
+                    <li><a href="#"></a>BLOG</li>
+                    <li><a href="#"></a>CONTACT US</li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input type="search" placeholder="Search Someting">
 
 
-    <p style="text-align:center;">
-      
-        <img src="img/4.png" width="25%" height="25%" ></img> 
-    </p>
- 
-    <div style = "text-align: right" >
-           
-        <p>
-            <br> 
-            <img src="img/phone.png" width="45" height="48"  /></a></a> (353) 86 454 6042 
-            <br> <br> <br> 
-            <img src="img/email.png" width="48" height="48"/></a></a> morenokatiac@hotmail.com 
-            
-            <br> <br> <br> 
-            <img src="img/LinkedIn-icon.png" />
-            <a href= "https://www.linkedin.com/in/morenokatia/" target="_blank" ></a>https://www.linkedin.com/in/morenokatia/</a> &nbsp; &nbsp;
-           
+            </div>
+
+
+        </div>
+    </main>
+
+    <!-- banner -->
+    <div class="col-100">
+
+        <div class="slider-principal">
+            <img src="./img/banner-katia-1366.png">
+            <img src="./img/banner-d-c-1366.jpg">
+            <img src="./img/banner-code-1366.jpg">
+        </div>
+    </div>
+
+    <!--conteudo abaixo do banner-->
+    <div class="col-100 ">
+        <div class="content text-destaque">
+            <h1>Web Developer <strong>Front-End</strong> and Back-end</h1>
+            <p>
+                I can develop your new website or assist with problems and/or optimise your existing website.
             </p>
+
+            <div class="col-3 bloco-text">
+                <img src="./img/content-1.png" alt="photo">
+                <h2><strong>Easy to navigate</strong></h2>
+                <p>
+                    easy to use, aesthetically pleasing, and suits the user group and brand of the website
+                </p>
+
+                   
+            </div>
+            <div class="col-3 bloco-text2">
+                <img src="./img/content-2.png" alt="photo">
+                <h2><strong> Focused on the user</strong></h2>
+                <p>
+                    Many webpages are designed with a focus on simplicity, so that no extraneous information and functionality that might distract or confuse users appears
+                </p>
+
+            </div>
+            <div class="col-3 bloco-text">
+                <img src="./img/content-3.png" alt="photo">
+                <h2><strong>Wireframes</strong> </h2>
+                <p>
+                     Two-dimensional illustration of a page's interface that specifically focuses on space allocation and prioritization of content, functionalities available, and intended behaviors.
+                 </p>
+            </div>
+
+
+
+
         </div>
 
-    
+    </div>
+
+    <!--Conteudo q esta no segundo bloco que esta em cinza e com imagens-->
+
+    <div class="col-100 bloco-imagens-texto">
+
+        <!--criei uma div para p bloco da primeira linha com 3 imagem -->
+
+        <div class="content" style="margin-left: 18%; float: left;">
+
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem1.png">
+                <h4>Simple and objective design</h4>
+                <p>
+                    The simplicity of the design is fundamental to ensure that the user finds all the information quickly on your website
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem2.png">
+                <h4>Responsivo</h4>
+                <p>
+                    With this feature, you guarantee that the website will be perfectly viewed on cell phones and other mobile devices, adjusting itself intelligently to the screen resolution.
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem3.png">
+                <h4>Quality images</h4>
+                <p>
+                    The quality of the images on your website is also essential for a positive experience, in addition to influencing the positioning in Google Images.
+                </p>
+                
+            </div>
+        </div>
+
+        <!--criei uma div para p bloco da segunda linha com 3 imagem -->
+
+        <div class="content" style="margin-left: 18%; float: left;">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem4.png">
+                <h4>Relevant content</h4>
+                <p>
+                    If you want to guarantee traffic to your website, you need to invest in the production of relevant content.
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem5.png">
+                <h4>Good usability</h4>
+                <p>
+                    Your website should be easy to use, with simple and clear language and intuitive navigation.
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/imagem6.png">
+                <h4>Functional website </h4>
+             <p>
+                Having a functional website is the main requirement to generate a good experience and stand out on the internet. 
+             </p>
+              
+            </div>
+        </div>
+    </div>
+
+    <!-- conteudo com Logos de cliente-->
+    <div class="col-100  bloco-logos ">
+
+        <div class="content"> 
+
+            <div class="col-4">
+                <img src="img/logo-html.png"  width="80" height="80" alt="html Logo-">
+            </div>
+            <div class="col-4">
+                <img src="img/logo-css.png" width="80" height="80"  alt="css Logo-">
+            </div>
+            <div class="col-4" style="margin-top: 10px;">
+                <img src="img/logo-js-200.png" width="80" height="80"  alt="javascript Logo-">
+            </div>
+            <div class="col-4">
+                <img src="img/logo-node-js-200.png" width="170" height="80" alt="node-js Logo-">
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="col-100 footer">
+
+            <div class="content"> <!-- o content e para deixar alinhado dentro da pagina com 980px-->
+                <div class="col-4">
+                    <h3>Populr Post</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p class="clock"> 12-March 2021</p>
+                    
+
+                    <hr>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <p class="clock"> 12-March 2021</p>
+
+
+
+
+                </div>
+                <div class="col-4">
+                    <h3>Tags</h3>
+                    <p>
+                        Lorem <b>blog</b> dolor sit amet consectetur adipisicing <b>daily design</b>. Voluptates, alias quasi assumenda quaerat quam <b>illustration</b>, reprehenderit odit numquam illum nemo <b>jquery</b> eum facere iusto neque <b>profession</b> cupiditate voluptatibus explicabo <b>video</b>.
+                    </p>
+                    
+                </div>
+                <div class="col-4">
+                    <h3>A litle about</h3>
+                     <p>
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa nulla maiores dignissimos corrupti facilis inventore, illo eligendi eaque! Dolorum vitae impedit necessitatibus excepturi architecto mollitia magnam ipsa, atque provident.
+                     </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    
+                </div>
+                <div class="col-4">
+                    <h3>Get in touch</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+
+                    <p class="contato-local"> Dublin/ Ireland</p>
+                    <p class="contato-email"> morenokatiac@hotmail.com</p>
+                    <p class="contato-tel"> + 353 086 454 6042</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        </div>
+
+
+    </footer>
+
+    <div class="rede-sociais rede-sociais-footer" >
+
+        <div class="content">
+            <p class="copy">
+              &copy; 2021 Web World.All rights reserved. Theme by cssautther and Katia Moreno
+            </p>
+
+            <ul>
+                <li>
+                    <a href="#" target="_blank">
+                        <img src="img/conexao.png" alt="rede-sociais">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/KatiaMoreno" target="_blank">
+                        <img src="img/iconfinder_GITHUB_25x25.png" alt="rede-sociais">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/morenokatiac" target="_blank">
+                        <img src="img/facebook.png" alt="rede-sociais">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/morenokatia" target="_blank">
+                        <img src="img/twitter.png" alt="rede-sociais">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/morenokatia/" target="_blank">
+                        <img src="img/linkedin.png" alt="rede-sociais">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        
+
+        
+    </div>
+
+
+    <!--Javascript-->
+    <script type="text/javascript" src="./js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="./js/slick.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+
+    <!--Slick (banner com movimento) - 
+        src abaixo foi copiado do site (https://kenwheeler.github.io/slick/)
+        Ele e carregado direto do site, ele vai carrega fora do meu servido:
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+   
+    -->
+
 </body>
+
 </html>
